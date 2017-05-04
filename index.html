@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/3.1.2/rx.lite.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/5.3.0/Rx.js"></script>
+     
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1>Rxjs:: ways to initialize
+    </h1>
+    <h3>(only run on https)</h3>
+    <div id="testRx">
+      <!--<p>first way to initialize: just</p>
+      <div id="finish1"></div>-->
+      
+      <div>create
+        <p id="finish2"></p>
+      </div>
+      
+      <div>from event -> Write some in the text box
+        <input id="input3" />
+        <p id="finish3"></p> 
+      </div>
+      
+       
+      <div>
+        from one promise/xhr
+        <p id="finish4"></p>
+      </div>
+      
+       
+      <div>
+        from mix (promises/xhr + observables), like Promesa.all
+        <p id="finish5"></p>
+      </div>
+      
+    </div>
+  </body> 
+
+</html>
